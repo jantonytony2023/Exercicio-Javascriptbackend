@@ -1,0 +1,25 @@
+### Lower case
+
+POST http://127.0.0.1:3000/funcoes/minus_maisc/lowercase HTTP/1.1
+Content-Type: application/json
+
+{
+  "input": " JOSE jantony"
+}
+
+### Upper case
+
+POST http://127.0.0.1:3000/funcoes/minus_maisc/uppercase HTTP/1.1
+Content-Type: application/json
+
+{
+  "input": "JOSE jantony"
+}
+
+### Minimum
+
+GET http://127.0.0.1:3000/funcoes/minimo_maximo/minimum/?input=10,-1,4000 HTTP/1.1
+
+### Maximum
+
+GET http://127.0.0.1:3000/funcoes/minimo_maximo/maximum/?input=10,-1,40000 HTTP/1.1
