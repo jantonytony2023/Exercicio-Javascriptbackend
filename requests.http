@@ -1,3 +1,10 @@
+
+
+### Oi Mundo
+GET http://127.0.0.1:3000/ HTTP/1.1
+
+
+
 ### Lower case
 
 POST http://127.0.0.1:3000/funcoes/minus_maisc/lowercase HTTP/1.1

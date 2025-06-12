@@ -6,6 +6,11 @@ const app = express();
 
 app.use(express.json());
 
+
+app.get('/', (req, res) => {
+  res.send('Oi Mundo Da Web!');
+});
+
 app.get('/funcoes/minimo_maximo/:action', (req, res) => {
   const { action } = req.params;
   const input = req.query.input.split(',');
